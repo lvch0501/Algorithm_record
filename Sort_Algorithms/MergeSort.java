@@ -3,8 +3,9 @@ import java.util.Arrays;
 public class MergeSort {
     public static void main(String[] args) {
         int[] a = {4,1,2,3,6,1,3,3,4,56,6,1,5,1,21,3};
-        sort(a,0, a.length-1);
-        System.out.println(Arrays.toString(a));
+        //sort(a,0, a.length-1);
+        //System.out.println(Arrays.toString(a));
+        System.out.println(-1/2);
     }
 
     public static void sort(int[] arr, int left, int right){
