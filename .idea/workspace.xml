@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e93788d-f2f7-4329-b8ad-b527cba41d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort_Algorithms/PartitionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort_Algorithms/PartitionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort_Algorithms/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm_record/PartitionSort.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,17 +27,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sort_Algorithms/SmallSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="182">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sort_Algorithms/PartitionSort.java">
+        <entry file="file://$PROJECT_DIR$/Sort_Algorithms/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="772" column="30" selection-start-line="772" selection-start-column="30" selection-end-line="772" selection-end-column="30" />
+              <folding>
+                <element signature="e#32010#32011#0" expanded="true" />
+                <element signature="e#32095#32096#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +77,7 @@
         <option value="$PROJECT_DIR$/Sort_Algorithms/MergeSort.java" />
         <option value="$PROJECT_DIR$/Sort_Algorithms/SmallSum.java" />
         <option value="$PROJECT_DIR$/Sort_Algorithms/PartitionSort.java" />
+        <option value="$PROJECT_DIR$/Sort_Algorithms/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -72,7 +89,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1387" />
+    <option name="x" value="-1833" />
     <option name="y" value="23" />
     <option name="width" value="1306" />
     <option name="height" value="938" />
@@ -108,7 +125,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576569142085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576574623193" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -129,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartitionSort">
+  <component name="RunManager">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSort" />
       <module name="Algorithm_record" />
@@ -151,8 +168,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PartitionSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
       <module name="Algorithm_record" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,7 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PartitionSort" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.SmallSum" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.InsertSort" />
@@ -185,15 +202,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576479151969</updated>
-      <workItem from="1576479153359" duration="6938000" />
+      <workItem from="1576479153359" duration="10131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6938000" />
+    <option name="totallyTimeSpent" value="10131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1387" y="23" width="1306" height="938" extended-state="0" />
+    <frame x="-1833" y="23" width="1306" height="938" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -201,13 +218,13 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19145569" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.4172577" />
+      <window_info anchor="bottom" id="Terminal" weight="0.31914893" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -266,17 +283,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithms/SmallSum.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="377">
+          <caret line="772" column="30" selection-start-line="772" selection-start-column="30" selection-end-line="772" selection-end-column="30" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sort_Algorithms/PartitionSort.java">
+    <entry file="file://$PROJECT_DIR$/Sort_Algorithms/SmallSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="182">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sort_Algorithms/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
