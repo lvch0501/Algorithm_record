@@ -6,7 +6,7 @@ public class HeapSort {
     public static void main(String[] args) {
         int[] a = {2,3,4,5,1,9,2,7,4};
         heapSort(a);
-        //System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(a));
     }
 
     public static void heapSort(int[] arr){
@@ -17,14 +17,16 @@ public class HeapSort {
         for(int i=1; i<arr.length; i++){
             heapInsert(arr, i);
         }
+        System.out.println(Arrays.toString(arr));
 
         int heapSize = arr.length-1;
 
         swap(arr, 0, heapSize--);
 
         while(heapSize>0){
+            //System.out.println(Arrays.toString(arr));
+
             heapify(arr, heapSize);
-            System.out.println(Arrays.toString(arr));
             swap(arr,  0, heapSize--);
         }
 
@@ -43,9 +45,9 @@ public class HeapSort {
 
     public static void heapify(int[] arr, int index){
         int left = 1;
-        System.out.println(index);
+        //System.out.println(index);
         while(left <= index){
-            int largest = left+1<=index&&arr[left+1]<arr[left]?left:left+1;
+            int largest = left+1<=index&&arr[left+1]>arr[left]?left+1:left;
             largest = arr[largest]>arr[(left-1)/2]?largest:(left-1)/2;
             if(largest==(left-1)/2){
                 break;
