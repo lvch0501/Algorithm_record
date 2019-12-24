@@ -3,37 +3,52 @@ import java.util.Arrays;
 public class Test {
     public static void main(String[] args) {
         int[] a = {3, 5, 1, 2, 6, 3, 11, 5};
-        quickSort(a, 0, a.length-1);
+        HeapSort(a);
         System.out.println(Arrays.toString(a));
     }
 
 
 
-    public static void quickSort(int[] a, int left, int right){
-        if(left>=right){
+    public static void HeapSort(int[] a){
+        if(a.length==0||a.length==1){
             return;
         }
-        int mid = partition(a, left, right);
-        quickSort(a, left, mid-1);
-        quickSort(a, mid+1, right);
-    }
-
-    public static int partition(int[] a, int left, int right){
-        int less = left-1;
-        int last = right;
-        while(left<right){
-            if(a[left]<=a[last]){
-                swap(a, ++less, left++);
-            }else if(a[left]==a[last]){
-                left++;
-            }else {
-                swap(a, left, --right);
-            }
+        for(int i=1; i<a.length; i++){
+            CreateMaxHeap(a, i);
         }
-        swap(a, last, right);
-        return right;
+
+        int heapSize = a.length-1;
+        swap(a, 0, heapSize--);
+
+        while(heapSize>0){
+            adjustHeap(a, heapSize);
+            swap(a, 0, heapSize--);
+        }
+
+
     }
 
+    public static void CreateMaxHeap(int[] arr, int start){
+        while(start>0){
+            if(arr[start]>arr[(start-1)/2]){
+                swap(arr, start, (start-1)/2);
+            }
+            start = (start-1)/2;
+        }
+    }
+
+    public static void adjustHeap(int[] arr, int size){
+        int start = 1;
+        while(start<size){
+            int index = start+1<=size&&arr[start+1]>arr[start]?start+1:start;
+            int largest = arr[index]>arr[(start-1)/2]?arr[index]:arr[(start-1)/2];
+            if(largest==arr[(start-1)/2]){
+                return;
+            }
+            swap(arr, (start-1)/2, index);
+            start = index*2+1;
+        }
+    }
     public static void swap(int[] arr, int a, int b){
         int temp = arr[a];
         arr[a] = arr[b];
