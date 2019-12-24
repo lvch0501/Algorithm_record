@@ -5,7 +5,19 @@ public class PrintElementNotInArrayA {
 
     public static void printElement(int[] a, int[] b){
         Arrays.sort(b);
+        int pointA = 0;
+        int pointB = 0;
+        while(pointA<a.length&&pointB<b.length){
+            if(a[pointA]<b[pointB]){
+                pointA++;
+            }else if(a[pointA]==b[pointB]){
+                pointB++;
+            }else {
+                System.out.println(b[pointB]);
+                pointB++;
+            }
 
+        }
     }
 
     public static void main(String[] args) {

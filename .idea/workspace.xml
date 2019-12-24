@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e93788d-f2f7-4329-b8ad-b527cba41d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data_Structure/PrintMatrixSpiralOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structure/PrintElementNotInArrayA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure/PrintElementNotInArrayA.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Structure/PrintMatrixSpiralOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="18">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Structure/PrintElementNotInArrayA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -103,15 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
               <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sort_Algorithms/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/Data_Structure/TwoQueueStack.java" />
         <option value="$PROJECT_DIR$/Data_Structure/TwoStackQueue.java" />
         <option value="$PROJECT_DIR$/Data_Structure/PrintMatrixSpiralOrder.java" />
+        <option value="$PROJECT_DIR$/Data_Structure/PrintElementNotInArrayA.java" />
       </list>
     </option>
   </component>
@@ -157,9 +158,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1093" />
+    <option name="x" value="-1372" />
     <option name="y" value="23" />
-    <option name="width" value="1173" />
+    <option name="width" value="1321" />
     <option name="height" value="889" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -186,6 +187,11 @@
             </path>
             <path>
               <item name="Algorithm_record" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_record" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort_Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_record" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -197,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577162189993" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577164501357" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -218,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.arrayQueueTest">
+  <component name="RunManager" selected="Application.PrintElementNotInArrayA">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeapSort" />
       <module name="Algorithm_record" />
@@ -233,8 +239,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+    <configuration name="PrintElementNotInArrayA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintElementNotInArrayA" />
       <module name="Algorithm_record" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintElementNotInArrayA" />
         <item itemvalue="Application.arrayQueueTest" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -274,15 +280,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576479151969</updated>
-      <workItem from="1576479153359" duration="29905000" />
+      <workItem from="1576479153359" duration="30895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29905000" />
+    <option name="totallyTimeSpent" value="30895000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1093" y="23" width="1173" height="889" extended-state="0" />
+    <frame x="-1372" y="23" width="1321" height="889" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -290,7 +296,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1724138" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23690383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -484,8 +490,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Structure/PrintMatrixSpiralOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="18">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Structure/PrintElementNotInArrayA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
