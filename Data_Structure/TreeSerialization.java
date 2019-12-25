@@ -22,7 +22,7 @@ public class TreeSerialization {
         node5.right = null;
         node3.left = null;
         node3.right = null;
-        System.out.println(serialPre(node1));
+        System.out.println(serialIn(node1));
     }
     //序列化与反序列化一棵树
     public static class Node{
@@ -51,6 +51,7 @@ public class TreeSerialization {
         for(String item:sArr){
             queue.offer(item);
         }
+        return reconPreOrder(queue);
     }
 
     public static Node reconPreOrder(Queue<String> queue){
@@ -65,6 +66,34 @@ public class TreeSerialization {
         return head;
     }
 
+    //按照中序遍历序列化一棵树
+
+    public static String serialIn(Node head){
+        if(head==null){
+            return "#_";
+        }
+        String s = "";
+        s += serialIn(head.left);
+        s += head.val+"_";
+        s += serialIn(head.right);
+        return s;
+    }
+
+    //按照中序遍历反序列化一棵树
+
+    public static Node unserialIn(String s){
+        String[] sArr = s.split("_");
+        Queue<String> queue = new LinkedList<>();
+        for(String item : sArr){
+            queue.offer(item);
+        }
+
+        return reconInOrder(queue);
+    }
+
+    public static Node reconInOrder(Queue<String> queue){
+        return null;
+    }
 
 
 }
