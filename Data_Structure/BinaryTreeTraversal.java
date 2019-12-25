@@ -2,9 +2,9 @@ import java.util.Stack;
 
 public class BinaryTreeTraversal {
 
-    //二叉树的便利算法
+    //二叉树的遍历算法
 
-
+    //先序遍历，递归版本
     public static void preOrderRecur(Node head){
         if(head==null){
             return;
@@ -13,6 +13,7 @@ public class BinaryTreeTraversal {
         preOrderRecur(head.left);
         preOrderRecur(head.right);
     }
+    //中序遍历，递归版本
     public static void inOrderRecur(Node head){
         if(head==null){
             return;
@@ -22,6 +23,7 @@ public class BinaryTreeTraversal {
         System.out.println(head.val+" ");
         inOrderRecur(head.right);
     }
+    //后序遍历，递归版本
     public static void posOrderRecur(Node head){
         if(head==null){
             return;
@@ -30,7 +32,7 @@ public class BinaryTreeTraversal {
         posOrderRecur(head.right);
         System.out.println(head.val+" ");
     }
-
+    //先序遍历，非递归版本
     public static void preOrderUnRecur(Node head){
         if(head != null){
             Stack<Node> stack = new Stack<>();
@@ -47,7 +49,7 @@ public class BinaryTreeTraversal {
             }
         }
     }
-
+    //中序遍历，非递归版本
     public static void inOrderUnRecur(Node head){
         if(head!=null){
             Stack<Node> stack = new Stack<>();
@@ -63,7 +65,7 @@ public class BinaryTreeTraversal {
             }
         }
     }
-
+    //后序遍历，非递归版本
     public static void posOrderUnRecur(Node head){
         if(head!=null){
             Stack<Node> stack1 = new Stack<>();
@@ -84,13 +86,12 @@ public class BinaryTreeTraversal {
             }
         }
     }
-
-}
-class Node{
-    public int val;
-    public Node left;
-    public Node right;
-    Node(int val){
-        this.val = val;
+    class Node{
+        public int val;
+        public Node left;
+        public Node right;
+        Node(int val){
+            this.val = val;
+        }
     }
 }
