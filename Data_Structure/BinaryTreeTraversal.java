@@ -49,9 +49,41 @@ public class BinaryTreeTraversal {
     }
 
     public static void inOrderUnRecur(Node head){
-
+        if(head!=null){
+            Stack<Node> stack = new Stack<>();
+            while(!stack.isEmpty()||head!=null){
+                if(head!=null){
+                    stack.push(head);
+                    head = head.left;
+                }else {
+                    head = stack.pop();
+                    System.out.println(head.val+" ");
+                    head = head.right;
+                }
+            }
+        }
     }
 
+    public static void posOrderUnRecur(Node head){
+        if(head!=null){
+            Stack<Node> stack1 = new Stack<>();
+            Stack<Node> stack2 = new Stack<>();
+            stack1.push(head);
+            while(!stack1.isEmpty()){
+                head = stack1.pop();
+                stack2.push(head);
+                if(head.left!=null){
+                    stack1.push(head.left);
+                }
+                if(head.right!=null){
+                    stack1.push(head.right);
+                }
+            }
+            while(!stack2.isEmpty()){
+                System.out.println(stack1.pop().val+" ");
+            }
+        }
+    }
 
 }
 class Node{
