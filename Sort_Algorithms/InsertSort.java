@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Stack;
 
 public class InsertSort {
 
@@ -16,6 +17,8 @@ public class InsertSort {
                 if(arr[j]>arr[j+1]){
                     swap(arr, j, j+1);
                 }else {
+                    Stack s = new Stack();
+
                     break;
                 }
             }

@@ -1,3 +1,4 @@
+
 public class isPalindrome {
     //给定一个链表，判断是否为回文链表
 
@@ -13,6 +14,7 @@ public class isPalindrome {
         node4.next = node5;
         node5.next = null;
         System.out.println(isPalind(node1));
+
     }
 
     public static boolean isPalind(ListNode node){
@@ -55,6 +57,7 @@ class ListNode{
     public int val;
     public ListNode next;
     ListNode(int val){
+
         this.val = val;
     }
 }
