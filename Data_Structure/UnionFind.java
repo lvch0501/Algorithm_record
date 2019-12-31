@@ -33,5 +33,24 @@ public class UnionFind {
             fatherMap.put(node, father);
             return father;
         }
+
+        public boolean isSameSet(Node a, Node b){
+            return findHead(a)==findHead(b);
+        }
+
+        public void union(Node a, Node b){
+            if(a==null||b==null){
+                return;
+            }
+            Node aHead = findHead(a);
+            Node bHead = findHead(b);
+            if(aHead==bHead)return;
+            if(sizeMap.get(aHead)>sizeMap.get(bHead)){
+                fatherMap.put(bHead, aHead);
+            }else {
+                fatherMap.put(aHead, bHead);
+            }
+
+        }
     }
 }
