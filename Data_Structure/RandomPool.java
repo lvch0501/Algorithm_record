@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.List;
 
 public class RandomPool {
     int size;
@@ -25,7 +26,6 @@ public class RandomPool {
             map2.remove(size);
             map1.put(map2.get(size), index);
         }
-
     }
 
     public String getRandom(){
