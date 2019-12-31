@@ -67,6 +67,15 @@ public class TrieTree {
                 char[] chs = word.toCharArray();
                 TrieNode node = root;
                 int index;
+                for(int i=0; i<chs.length; i++){
+                    index = chs[i] - 'a';
+                    if(--node.nexts[index].path==0){
+                        node.nexts[index] = null;
+                        return;
+                    }
+                    node = node.nexts[index];
+                }
+                node.end--;
             }
         }
 
