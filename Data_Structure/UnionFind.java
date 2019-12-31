@@ -2,11 +2,11 @@ import java.util.HashMap;
 import java.util.List;
 
 public class UnionFind {
+
+    // 并查集
     public static class Node{
 
     }
-
-
     public static class UnionFindSet{
         public HashMap<Node, Node> fatherMap;
         public HashMap<Node, Integer> sizeMap;
