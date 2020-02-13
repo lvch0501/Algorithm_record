@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Data_Structure" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Greedy_Algorithm" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Recurrence" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Proxy" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
